@@ -1,0 +1,19 @@
+{
+  "name": "nodedar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "start": "node src/index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "29.2.4",
+    "chalk": "^5.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
